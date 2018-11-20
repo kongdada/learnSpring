@@ -1,0 +1,8 @@
+# JAVA
+*.class
+
+# IDEA
+.idea
+
+# My Configrations and Mac
+.DS_Store

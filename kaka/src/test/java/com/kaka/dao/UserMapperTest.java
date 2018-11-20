@@ -26,6 +26,6 @@ public class UserMapperTest {
     public void selectBySex() {
         String sex = "男";
         List<User> list = userMapper.selectBySex(sex);
-        System.out.println(list.toString());
+        System.out.println("********* result:" + list.toString());
     }
 }

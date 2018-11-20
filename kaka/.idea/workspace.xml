@@ -7,10 +7,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c1c3080-c563-4258-80c5-73c0325d41ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AssemblyBean/CDPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AssemblyBean/CDPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AssemblyBean/CDplayerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AssemblyBean/CDplayerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AssemblyBean/CDplayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AssemblyBean/CDplayerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AssemblyBean/CompactDisc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AssemblyBean/CompactDisc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AssemblyBean/Mediaplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AssemblyBean/Mediaplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AssemblyBean/SgtPepper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AssemblyBean/SgtPepper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopAspectJ/Audience.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopAspectJ/Performance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aopAspectJ/Performance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopAspectJ/PerformanceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aopAspectJ/PerformanceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopJavaConfig/Audience.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aopJavaConfig/Audience.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopJavaConfig/ConcertConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aopJavaConfig/ConcertConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopJavaConfig/Encoreable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aopJavaConfig/Encoreable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopJavaConfig/EncoreableImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aopJavaConfig/EncoreableImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopJavaConfig/EncoreableIntroducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aopJavaConfig/EncoreableIntroducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopJavaConfig/Performance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aopJavaConfig/Performance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopJavaConfig/PerformanceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aopJavaConfig/PerformanceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopXML/Audience.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aopXML/Audience.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopXML/Encoreable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aopXML/Encoreable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopXML/EncoreableImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aopXML/EncoreableImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopXML/Performance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aopXML/Performance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aopXML/PerformanceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aopXML/PerformanceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kaka/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kaka/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kaka/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kaka/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kaka/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kaka/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kaka/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kaka/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mail/MailUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mail/MailUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/aopAspectJ/PerformanceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/aopAspectJ/PerformanceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/aopJavaConfig/PerformanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/aopJavaConfig/PerformanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/aopXML/PerformanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/aopXML/PerformanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kaka/dao/UserMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/kaka/dao/UserMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mail/JavaMailSenderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mail/JavaMailSenderTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,7 +73,7 @@
         <counts>
           <entry key="aj" value="411" />
           <entry key="dummy" value="2" />
-          <entry key="java" value="3486" />
+          <entry key="java" value="3526" />
           <entry key="jsp" value="24" />
           <entry key="properties" value="18" />
           <entry key="txt" value="24" />
@@ -52,7 +83,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="AspectJ" value="411" />
-          <entry key="JAVA" value="3486" />
+          <entry key="JAVA" value="3526" />
           <entry key="JSP" value="24" />
           <entry key="PLAIN_TEXT" value="26" />
           <entry key="Properties" value="18" />
@@ -65,24 +96,26 @@
           <entry key="CDPlayer" value="1" />
           <entry key="CDplayerTest" value="1" />
           <entry key="aj" value="2" />
-          <entry key="class" value="9" />
+          <entry key="class" value="10" />
           <entry key="fxml" value="1" />
-          <entry key="java" value="161" />
+          <entry key="java" value="162" />
           <entry key="jsp" value="5" />
-          <entry key="properties" value="3" />
-          <entry key="xml" value="69" />
+          <entry key="md" value="1" />
+          <entry key="properties" value="4" />
+          <entry key="xml" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="AspectJ" value="2" />
-          <entry key="CLASS" value="9" />
-          <entry key="JAVA" value="161" />
+          <entry key="CLASS" value="10" />
+          <entry key="JAVA" value="162" />
           <entry key="JSP" value="5" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="3" />
+          <entry key="Properties" value="4" />
           <entry key="UML" value="2" />
-          <entry key="XML" value="70" />
+          <entry key="XML" value="71" />
         </counts>
       </usages-collector>
     </session>
@@ -143,24 +176,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+            <state relative-caret-position="393">
+              <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aopJavaConfig/EncoreableIntroducer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-test.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="28" column="66" lean-forward="true" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -205,13 +253,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-test.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaka/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaka/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaka/dao/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/mail/JavaMailSenderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/AssemblyBean/Mediaplay.java" />
         <option value="$PROJECT_DIR$/src/main/java/AssemblyBean/SgtPepper.java" />
@@ -256,6 +302,8 @@
         <option value="$PROJECT_DIR$/src/main/java/aopJavaConfig/PerformanceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/aopJavaConfig/Audience.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java" />
       </list>
     </option>
   </component>
@@ -355,43 +403,12 @@
               <item name="kaka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aopJavaConfig" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aopXML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
               <item name="kaka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -407,23 +424,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aopAspectJ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aopJavaConfig" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aopXML" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -434,7 +435,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542695505878" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542699540060" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -466,6 +467,116 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../README.md</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -478,21 +589,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PerformanceTest.testAopConfig">
-    <configuration name="PerformanceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kaka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aopAspectJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="aopAspectJ" />
-      <option name="MAIN_CLASS_NAME" value="aopAspectJ.PerformanceImplTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserMapperTest.selectBySex">
     <configuration name="PerformanceImplTest.perform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kaka" />
       <extension name="coverage">
@@ -552,6 +649,22 @@
       <option name="PACKAGE_NAME" value="aopJavaConfig" />
       <option name="MAIN_CLASS_NAME" value="aopJavaConfig.PerformanceTest" />
       <option name="METHOD_NAME" value="testAopConfig" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.selectBySex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kaka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaka.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaka.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.kaka.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="selectBySex" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -663,16 +776,16 @@
       <item itemvalue="JUnit.PerformanceTest.test" />
       <item itemvalue="JUnit.PerformanceTest.test (1)" />
       <item itemvalue="JUnit.PerformanceImplTest.perform" />
-      <item itemvalue="JUnit.PerformanceImplTest" />
       <item itemvalue="JUnit.PerformanceTest.testAopConfig" />
+      <item itemvalue="JUnit.UserMapperTest.selectBySex" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserMapperTest.selectBySex" />
         <item itemvalue="JUnit.PerformanceTest.testAopConfig" />
         <item itemvalue="JUnit.PerformanceTest.test (1)" />
         <item itemvalue="JUnit.PerformanceImplTest.perform" />
         <item itemvalue="JUnit.PerformanceTest.test" />
-        <item itemvalue="JUnit.PerformanceImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -712,9 +825,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PerformanceTest_testAopConfig - 2018.11.19 at 16h 52m 38s.xml">
-      <configuration name="PerformanceTest.testAopConfig" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PerformanceTest_testAopConfig - 2018.11.19 at 16h 53m 08s.xml">
       <configuration name="PerformanceTest.testAopConfig" configurationId="JUnit" />
     </history-entry>
@@ -742,15 +852,18 @@
     <history-entry file="PerformanceTest_testAopConfig - 2018.11.19 at 17h 16m 38s.xml">
       <configuration name="PerformanceTest.testAopConfig" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserMapperTest_selectBySex - 2018.11.20 at 15h 37m 10s.xml">
+      <configuration name="UserMapperTest.selectBySex" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139104000" />
+    <option name="totallyTimeSpent" value="139695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1600" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19897304" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19897304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -760,7 +873,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41746247" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41746247" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39972714" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -770,9 +883,9 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3287858" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32742155" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3299363" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3287858" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3287858" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -790,32 +903,36 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/AssemblyBean.CDPlayer">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>AssemblyBean.CDPlayer</OriginalElement>
-          <nodes>
-            <node x="" y="">AssemblyBean.CDPlayer</node>
-            <node x="" y="">org.springframework.stereotype.Component</node>
-            <node x="" y="">AssemblyBean.Mediaplay</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="125.0" y="54.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/SpringAOP.xml.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/learnAop/ExampleArray.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/learnAop/SubjectImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/learnAop/Subject.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/learnAop/Sectiuon.java" />
@@ -859,13 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="14" column="46" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -929,13 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="13" column="27" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1145,11 +1248,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/aopAspectJ/Audience.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#2015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+        <state relative-caret-position="393">
+          <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="28" column="66" lean-forward="true" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,7 @@
 *.class
 
 # IDEA
-.idea
+.idea/*
 workspace.xml
 
 # My Configrations and Mac

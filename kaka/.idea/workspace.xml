@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4c1c3080-c563-4258-80c5-73c0325d41ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/AssemblyBean/CDPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AssemblyBean/CDPlayer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/AssemblyBean/CDplayerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AssemblyBean/CDplayerConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/AssemblyBean/CDplayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AssemblyBean/CDplayerTest.class" afterDir="false" />
@@ -76,7 +74,7 @@
           <entry key="java" value="3526" />
           <entry key="jsp" value="24" />
           <entry key="properties" value="18" />
-          <entry key="txt" value="24" />
+          <entry key="txt" value="58" />
           <entry key="xml" value="704" />
         </counts>
       </usages-collector>
@@ -85,7 +83,7 @@
           <entry key="AspectJ" value="411" />
           <entry key="JAVA" value="3526" />
           <entry key="JSP" value="24" />
-          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="PLAIN_TEXT" value="60" />
           <entry key="Properties" value="18" />
           <entry key="XML" value="704" />
         </counts>
@@ -207,8 +205,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="28" column="66" lean-forward="true" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+            <state relative-caret-position="89">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -435,7 +433,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542699540060" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542699697292" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -822,12 +820,17 @@
       <workItem from="1541991782571" duration="32430000" />
       <workItem from="1542590521108" duration="10158000" />
     </task>
+    <task id="LOCAL-00001" summary="mysql-connector-java.jar位置修改">
+      <created>1542699924990</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542699924990</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PerformanceTest_testAopConfig - 2018.11.19 at 16h 53m 08s.xml">
-      <configuration name="PerformanceTest.testAopConfig" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PerformanceTest_testAopConfig - 2018.11.19 at 16h 53m 53s.xml">
       <configuration name="PerformanceTest.testAopConfig" configurationId="JUnit" />
     </history-entry>
@@ -855,9 +858,12 @@
     <history-entry file="UserMapperTest_selectBySex - 2018.11.20 at 15h 37m 10s.xml">
       <configuration name="UserMapperTest.selectBySex" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserMapperTest_selectBySex - 2018.11.20 at 15h 38m 48s.xml">
+      <configuration name="UserMapperTest.selectBySex" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139695000" />
+    <option name="totallyTimeSpent" value="140084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1600" height="825" extended-state="0" />
@@ -931,6 +937,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mysql-connector-java.jar位置修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="mysql-connector-java.jar位置修改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/learnAop/SubjectImpl.java" />
@@ -1290,8 +1300,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="28" column="66" lean-forward="true" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+        <state relative-caret-position="89">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>

@@ -2,8 +2,8 @@
 *.class
 
 # IDEA
-.idea/*
-workspace.xml
+.idea
+./idea/workspace.xml
 
 # My Configrations and Mac
 .DS_Store

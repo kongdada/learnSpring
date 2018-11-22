@@ -19,7 +19,7 @@ import java.io.File;
  * @date 2018/10/31
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = "classpath:applicationContext-test.xml")
+@ContextConfiguration(locations = "classpath:applicationContext.xml")
 public class JavaMailSenderTest {
 
     @Autowired

@@ -9,9 +9,10 @@
         </constructor>
     </resultMap>
 
+    <cache type="com.kaka.cache.RedisCache" />
     <select id="selectBySex" parameterType="java.lang.String" resultType="com.kaka.model.User">
     select * from user where user.sex = #{sex}
-  </select>
+    </select>
 
     <sql id="Example_Where_Clause">
 

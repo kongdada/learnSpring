@@ -10,8 +10,8 @@
     </resultMap>
 
     <select id="selectBySex" parameterType="java.lang.String" resultType="com.kaka.model.User">
-    select * from user where user.sex = #{sex}
-  </select>
+          select * from user where user.sex = #{sex}
+    </select>
 
     <sql id="Example_Where_Clause">
 

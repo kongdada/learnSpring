@@ -5,9 +5,9 @@ package reflect.JdkProxy;
  * @date 2018/11/26
  */
 
-public class HelloWorldImpl implements HelloWorld{
+public class HelloWorldImpl implements HelloWorld {
     @Override
-    public void sayHello(){
+    public void sayHello() {
         System.out.println("Hello World!");
     }
 }

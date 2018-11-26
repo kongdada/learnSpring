@@ -6,5 +6,5 @@ package reflect.JdkProxy;
  */
 
 public interface HelloWorld {
-    public void sayHello();
+     void sayHello();
 }

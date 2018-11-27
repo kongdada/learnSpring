@@ -14,6 +14,7 @@ public class JdkProxyExample implements InvocationHandler {
 
     public Object bind(Object target) {
         this.target = target;
+        // 生成一个动态代理对象并且挂在目标对象对应的接口下--就是这儿需要接口
         return Proxy.newProxyInstance(target.getClass().getClassLoader(), target.getClass().getInterfaces(), this);
     }
 

@@ -1,4 +1,4 @@
-package reflect.interceptor;
+package designModel.reflect.interceptor;
 
 import java.lang.reflect.Method;
 

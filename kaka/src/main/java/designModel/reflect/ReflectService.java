@@ -1,4 +1,4 @@
-package reflect;
+package designModel.reflect;
 
 import org.springframework.stereotype.Component;
 
@@ -15,7 +15,7 @@ public class ReflectService {
         Person person = null;
         try {
             // 获得对象
-            person = (Person) Class.forName("reflect.Person").getConstructor(String.class).newInstance("kong");
+            person = (Person) Class.forName("designModel.reflect.Person").getConstructor(String.class).newInstance("kong");
             // 获得方法
             Method method = person.getClass().getMethod("sayHello", String.class);
             // 调用方法

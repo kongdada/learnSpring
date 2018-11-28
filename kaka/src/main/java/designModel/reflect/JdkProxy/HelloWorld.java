@@ -1,4 +1,4 @@
-package reflect.JdkProxy;
+package designModel.reflect.JdkProxy;
 
 /**
  * @author konglinghui

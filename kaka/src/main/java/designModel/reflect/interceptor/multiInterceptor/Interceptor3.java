@@ -1,6 +1,6 @@
-package reflect.interceptor.multiInterceptor;
+package designModel.reflect.interceptor.multiInterceptor;
 
-import reflect.interceptor.Interceptor;
+import designModel.reflect.interceptor.Interceptor;
 
 import java.lang.reflect.Method;
 

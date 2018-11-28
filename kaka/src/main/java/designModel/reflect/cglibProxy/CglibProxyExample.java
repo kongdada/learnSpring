@@ -1,9 +1,9 @@
-package reflect.cglibProxy;
+package designModel.reflect.cglibProxy;
 
+import designModel.reflect.JdkProxy.HelloWorldImpl;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
-import reflect.JdkProxy.HelloWorldImpl;
 
 import java.lang.reflect.Method;
 

@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Configuration;
  * @date 2018/11/26
  */
 @Configuration
-@ComponentScan(basePackages = "reflect")
+@ComponentScan(basePackages = "designModel.reflect")
 public class ReflectConifg {
 }

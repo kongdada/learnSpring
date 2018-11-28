@@ -6,22 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c1c3080-c563-4258-80c5-73c0325d41ee" name="Default Changelist" comment="mysql-connector-java.jar位置修改">
+    <list default="true" id="4c1c3080-c563-4258-80c5-73c0325d41ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/JdkProxy/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/JdkProxy/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/JdkProxy/HelloWorldImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/JdkProxy/HelloWorldImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/JdkProxy/JdkProxyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/JdkProxy/JdkProxyExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/ReflectConifg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectConifg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/ReflectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/cglibProxy/CglibProxyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/cglibProxy/CglibProxyExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/interceptor/Interceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/Interceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/interceptor/InterceptorJDKProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/InterceptorJDKProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/interceptor/MyInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/MyInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/interceptor/multiInterceptor/Interceptor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/multiInterceptor/Interceptor1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/interceptor/multiInterceptor/Interceptor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/multiInterceptor/Interceptor2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/interceptor/multiInterceptor/Interceptor3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/multiInterceptor/Interceptor3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/reflect/ReflectServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/reflect/ReflectServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/JdkProxy/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/JdkProxy/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/JdkProxy/HelloWorldImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/JdkProxy/HelloWorldImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/JdkProxy/JdkProxyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/JdkProxy/JdkProxyExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectConifg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectConifg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/cglibProxy/CglibProxyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/cglibProxy/CglibProxyExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/Interceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/interceptor/Interceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/InterceptorJDKProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/interceptor/InterceptorJDKProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/MyInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/interceptor/MyInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/multiInterceptor/Interceptor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/interceptor/multiInterceptor/Interceptor1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/multiInterceptor/Interceptor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/interceptor/multiInterceptor/Interceptor2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/multiInterceptor/Interceptor3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/interceptor/multiInterceptor/Interceptor3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,28 +45,28 @@
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="aj" value="411" />
           <entry key="dummy" value="23" />
-          <entry key="java" value="7142" />
+          <entry key="java" value="7163" />
           <entry key="jsp" value="54" />
           <entry key="properties" value="39" />
-          <entry key="txt" value="159" />
+          <entry key="txt" value="167" />
           <entry key="xml" value="909" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="AspectJ" value="411" />
-          <entry key="JAVA" value="7142" />
+          <entry key="JAVA" value="7163" />
           <entry key="JSP" value="54" />
-          <entry key="PLAIN_TEXT" value="182" />
+          <entry key="PLAIN_TEXT" value="190" />
           <entry key="Properties" value="39" />
           <entry key="SQL" value="5" />
           <entry key="XML" value="904" />
@@ -82,7 +80,7 @@
           <entry key="aj" value="2" />
           <entry key="class" value="13" />
           <entry key="fxml" value="1" />
-          <entry key="java" value="226" />
+          <entry key="java" value="231" />
           <entry key="jsp" value="8" />
           <entry key="md" value="1" />
           <entry key="properties" value="13" />
@@ -93,7 +91,7 @@
         <counts>
           <entry key="AspectJ" value="2" />
           <entry key="CLASS" value="13" />
-          <entry key="JAVA" value="226" />
+          <entry key="JAVA" value="231" />
           <entry key="JSP" value="8" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -109,32 +107,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/JdkProxy/HelloWorldImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/JdkProxy/JdkProxyExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectConifg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,28 +132,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/Interceptor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/JdkProxy/JdkProxyExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/MyInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/InterceptorJDKProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+            <state relative-caret-position="178">
+              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,10 +144,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/multiInterceptor/Interceptor1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/Interceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="119">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/MyInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/InterceptorJDKProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="55" column="88" lean-forward="true" selection-start-line="55" selection-start-column="88" selection-end-line="55" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,19 +180,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/multiInterceptor/Interceptor2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/cglibProxy/CglibProxyExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="247">
+              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/multiInterceptor/Interceptor3.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/reflect/ReflectServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="253">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/multiInterceptor/Interceptor1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -258,11 +267,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/aopJavaConfig/Audience.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/spittr/SpittrWebAppInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spittr/config/SpittrWebAppInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spittr/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/spittr/config/RootConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/spittr/web/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp" />
@@ -293,7 +297,6 @@
         <option value="$PROJECT_DIR$/src/main/java/reflect/JavaConifg.java" />
         <option value="$PROJECT_DIR$/src/main/java/reflect/ReflectService.java" />
         <option value="$PROJECT_DIR$/src/main/java/reflect/Person.java" />
-        <option value="$PROJECT_DIR$/src/test/java/reflect/ReflectServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/reflect/JdkProxy/TestJdkProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/reflect/JdkProxy/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/reflect/JdkProxy/HelloWorldImpl.java" />
@@ -309,6 +312,12 @@
         <option value="$PROJECT_DIR$/src/main/java/reflect/interceptor/multiInterceptor/Interceptor3.java" />
         <option value="$PROJECT_DIR$/src/main/java/reflect/interceptor/InterceptorJDKProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/InterceptorJDKProxy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/reflect/ReflectServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designModel/interceptor/MyInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designModel/interceptor/Interceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designModel/interceptor/InterceptorJDKProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectConifg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectService.java" />
       </list>
     </option>
   </component>
@@ -407,6 +416,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kaka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
               <item name="reflect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -448,14 +466,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543321953871" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543372900391" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -502,13 +520,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterceptorJDKProxy">
-    <configuration name="CglibProxyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflect.cglibProxy.CglibProxyExample" />
+  <component name="RunManager" selected="JUnit.ReflectServiceTest.reflect">
+    <configuration name="CglibProxyExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designModel.cglibProxy.CglibProxyExample" />
       <module name="kaka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflect.cglibProxy.*" />
+          <option name="PATTERN" value="designModel.cglibProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterceptorJDKProxy (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designModel.interceptor.InterceptorJDKProxy" />
+      <module name="kaka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designModel.interceptor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -530,30 +561,14 @@
       </method>
     </configuration>
     <configuration name="JdkProxyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflect.JdkProxy.JdkProxyExample" />
+      <option name="MAIN_CLASS_NAME" value="designModel.JdkProxy.JdkProxyExample" />
       <module name="kaka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflect.JdkProxy.*" />
+          <option name="PATTERN" value="designModel.JdkProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisTestServiceTest.getTimestampTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kaka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kaka.cache.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kaka.cache" />
-      <option name="MAIN_CLASS_NAME" value="com.kaka.cache.RedisTestServiceTest" />
-      <option name="METHOD_NAME" value="getTimestampTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -677,19 +692,19 @@
     <list>
       <item itemvalue="Maven.kaka-generator" />
       <item itemvalue="Tomcat Server.kaka" />
-      <item itemvalue="JUnit.RedisTestServiceTest.getTimestampTest" />
       <item itemvalue="JUnit.ReflectServiceTest.reflect" />
-      <item itemvalue="Application.JdkProxyExample" />
-      <item itemvalue="Application.CglibProxyExample" />
       <item itemvalue="Application.InterceptorJDKProxy" />
+      <item itemvalue="Application.InterceptorJDKProxy (1)" />
+      <item itemvalue="Application.CglibProxyExample (1)" />
+      <item itemvalue="Application.JdkProxyExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterceptorJDKProxy" />
-        <item itemvalue="Application.CglibProxyExample" />
-        <item itemvalue="Application.JdkProxyExample" />
         <item itemvalue="JUnit.ReflectServiceTest.reflect" />
-        <item itemvalue="JUnit.RedisTestServiceTest.getTimestampTest" />
+        <item itemvalue="Application.JdkProxyExample" />
+        <item itemvalue="Application.CglibProxyExample (1)" />
+        <item itemvalue="Application.InterceptorJDKProxy (1)" />
+        <item itemvalue="Application.InterceptorJDKProxy" />
       </list>
     </recent_temporary>
   </component>
@@ -728,6 +743,7 @@
       <workItem from="1543196903132" duration="3873000" />
       <workItem from="1543214447400" duration="12598000" />
       <workItem from="1543371588406" duration="188000" />
+      <workItem from="1543372146088" duration="738000" />
     </task>
     <task id="LOCAL-00001" summary="mysql-connector-java.jar位置修改">
       <created>1542699924990</created>
@@ -813,22 +829,17 @@
       <option name="project" value="LOCAL" />
       <updated>1543304897947</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="多层拦截器">
+      <created>1543372204419</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1543372204420</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RedisTestServiceTest_getTimestampTest - 2018.11.23 at 17h 28m 40s.xml">
-      <configuration name="RedisTestServiceTest.getTimestampTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReflectServiceTest_reflect - 2018.11.26 at 11h 43m 58s.xml">
-      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReflectServiceTest_reflect - 2018.11.26 at 11h 46m 12s.xml">
-      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReflectServiceTest_reflect - 2018.11.26 at 11h 48m 59s.xml">
-      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReflectServiceTest_reflect - 2018.11.26 at 11h 50m 15s.xml">
       <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
     </history-entry>
@@ -847,9 +858,21 @@
     <history-entry file="ReflectServiceTest_reflect - 2018.11.26 at 14h 06m 53s.xml">
       <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReflectServiceTest_reflect - 2018.11.28 at 10h 30m 45s.xml">
+      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReflectServiceTest_reflect - 2018.11.28 at 10h 32m 13s.xml">
+      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReflectServiceTest_reflect - 2018.11.28 at 10h 40m 12s.xml">
+      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReflectServiceTest_reflect - 2018.11.28 at 10h 41m 11s.xml">
+      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186577000" />
+    <option name="totallyTimeSpent" value="187315000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -862,8 +885,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1600" height="825" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931788" visible="true" weight="0.2195122" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931788" visible="true" weight="0.22207959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -874,7 +898,7 @@
       <window_info anchor="bottom" id="Problems" order="0" weight="0.3287858" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3287858" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3383356" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3819918" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.35607094" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -942,7 +966,8 @@
     <MESSAGE value="JDK动态代理修改" />
     <MESSAGE value="CGLIB动态代理case" />
     <MESSAGE value="拦截器和责任链case" />
-    <option name="LAST_COMMIT_MESSAGE" value="拦截器和责任链case" />
+    <MESSAGE value="多层拦截器" />
+    <option name="LAST_COMMIT_MESSAGE" value="多层拦截器" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/spittr/web/HomeControllerTest.java">
@@ -1020,12 +1045,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="34" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis-bak.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/dao/UserMapper.java">
@@ -1063,9 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="48" selection-end-column="69" />
-          <folding>
-            <element signature="e#1119#1137#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1143,9 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="18" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,28 +1182,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/reflect/ReflectServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/reflect/JdkProxy/TestJdkProxy.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/JdkProxy/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/JdkProxy/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/cglibProxy/CglibProxyExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/JdkProxy/HelloWorldImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/multiInterceptor/Interceptor2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/multiInterceptor/Interceptor3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/Interceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/multiInterceptor/Interceptor1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/MyInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/InterceptorJDKProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="55" column="88" lean-forward="true" selection-start-line="55" selection-start-column="88" selection-end-line="55" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/cglibProxy/CglibProxyExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/JdkProxy/JdkProxyExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectConifg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1195,100 +1282,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/JdkProxy/HelloWorldImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/reflect/ReflectServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="253">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/JdkProxy/JdkProxyExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectConifg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/Interceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/MyInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="24" />
-          <folding>
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/multiInterceptor/Interceptor1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/multiInterceptor/Interceptor2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/multiInterceptor/Interceptor3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/InterceptorJDKProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+        <state relative-caret-position="323">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,4 +1,4 @@
-package designModel.reflect.JdkProxy;
+package designModel.JdkProxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

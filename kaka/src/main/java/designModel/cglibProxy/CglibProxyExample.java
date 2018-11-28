@@ -1,6 +1,6 @@
-package designModel.reflect.cglibProxy;
+package designModel.cglibProxy;
 
-import designModel.reflect.JdkProxy.HelloWorldImpl;
+import designModel.JdkProxy.HelloWorldImpl;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;

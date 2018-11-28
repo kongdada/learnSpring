@@ -1,7 +1,7 @@
-package designModel.reflect.interceptor;
+package designModel.interceptor;
 
-import designModel.reflect.JdkProxy.HelloWorld;
-import designModel.reflect.JdkProxy.HelloWorldImpl;
+import designModel.JdkProxy.HelloWorld;
+import designModel.JdkProxy.HelloWorldImpl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -53,13 +53,13 @@ public class InterceptorJDKProxy implements InvocationHandler {
     }
 
     public static void main(String args[]) {
-        HelloWorld proxy = (HelloWorld) InterceptorJDKProxy.bind(new HelloWorldImpl(), "MyInterceptor");
+        HelloWorld proxy = (HelloWorld) InterceptorJDKProxy.bind(new HelloWorldImpl(), "designModel.interceptor.MyInterceptor");
         proxy.sayHello();
         System.out.println("######################");
 
-        HelloWorld proxy1 = (HelloWorld) InterceptorJDKProxy.bind(new HelloWorldImpl(), "Interceptor1");
-        HelloWorld proxy2 = (HelloWorld) InterceptorJDKProxy.bind(proxy1, "Interceptor2");
-        HelloWorld proxy3 = (HelloWorld) InterceptorJDKProxy.bind(proxy2, "Interceptor3");
+        HelloWorld proxy1 = (HelloWorld) InterceptorJDKProxy.bind(new HelloWorldImpl(), "designModel.interceptor.multiInterceptor.Interceptor1");
+        HelloWorld proxy2 = (HelloWorld) InterceptorJDKProxy.bind(proxy1, "designModel.interceptor.multiInterceptor.Interceptor2");
+        HelloWorld proxy3 = (HelloWorld) InterceptorJDKProxy.bind(proxy2, "designModel.interceptor.multiInterceptor.Interceptor3");
         proxy3.sayHello();
 
     }

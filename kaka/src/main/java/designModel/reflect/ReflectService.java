@@ -19,7 +19,7 @@ public class ReflectService {
             // 获得方法
             Method method = person.getClass().getMethod("sayHello", String.class);
             // 调用方法
-            method.invoke(person, "laiji");
+            method.invoke(person, "laji");
         } catch (ClassNotFoundException | InstantiationException | NoSuchMethodException | IllegalAccessException | InvocationTargetException ex) {
             ex.printStackTrace();
         }

@@ -11,7 +11,11 @@ public class UserService {
     @Autowired
     private UserMapper userMapper;
 
-    public User getUserById(String id){
+    public User getUserById(String id) {
         return userMapper.selectByPrimaryKey(id);
+    }
+
+    public int updateUserById(String id) {
+        return userMapper.updateByPrimaryKey(new User(id, "kong", "男"));
     }
 }

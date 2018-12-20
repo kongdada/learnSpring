@@ -10,7 +10,13 @@
     </resultMap>
 
     <select id="selectBySex" parameterType="java.lang.String" resultType="com.kaka.model.User">
-          select * from user where user.sex = #{sex}
+          select * from user where true
+            <if test="sex != null and sex != '' ">
+                and user.sex = #{sex}
+            </if>
+            <if test="name != null and name != '' ">
+                and user.name = #{name}
+            </if>
     </select>
 
     <sql id="Example_Where_Clause">

@@ -25,8 +25,14 @@ public class UserMapperTest {
 
     @Test
     public void selectBySex() {
-        String sex = "男";
-        List<User> list = userMapper.selectBySex(sex);
+        String sex = "";
+        String name = "zhang";
+        List<User> list = userMapper.selectBySex(name, sex);
         System.out.println("********* result:" + list.toString());
+    }
+    @Test
+    public void test(){
+        Long time = System.currentTimeMillis();
+        System.out.println(String.valueOf(time));
     }
 }

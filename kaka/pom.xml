@@ -44,6 +44,9 @@
                     <!-- 设置JDK版本 -->
                     <source>1.8</source>
                     <target>1.8</target>
+                    <compilerArguments>
+                        <bootclasspath>${JAVA_HOME}/jre/lib/rt.jar</bootclasspath>
+                    </compilerArguments>
                 </configuration>
             </plugin>
         </plugins>
@@ -79,6 +82,7 @@
         <spring.version>5.0.8.RELEASE</spring.version>
         <!-- mybatis版本号 -->
         <mybatis.version>3.4.1</mybatis.version>
+        <JAVA_HOME>/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home</JAVA_HOME>
     </properties>
 
     <dependencies>
@@ -127,7 +131,12 @@
             <artifactId>spring-context-support</artifactId>
             <version>5.0.8.RELEASE</version>
         </dependency>
-
+        <!--excel-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel</artifactId>
+            <version>1.1.1</version>
+        </dependency>
         <!-- 单元测试 -->
         <dependency>
             <groupId>junit</groupId>

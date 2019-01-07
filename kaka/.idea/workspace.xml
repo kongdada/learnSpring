@@ -6,20 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c1c3080-c563-4258-80c5-73c0325d41ee" name="Default Changelist" comment="">
+    <list default="true" id="4c1c3080-c563-4258-80c5-73c0325d41ee" name="Default Changelist" comment="整理包结构">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kaka/dao/BeanutilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kaka/dao/DestinationObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kaka/dao/OriginObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/easyexcel/TestExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/JdkProxy/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/JdkProxy/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/JdkProxy/HelloWorldImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/JdkProxy/HelloWorldImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/JdkProxy/JdkProxyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/JdkProxy/JdkProxyExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectConifg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectConifg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/cglibProxy/CglibProxyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/cglibProxy/CglibProxyExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/Interceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/interceptor/Interceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/InterceptorJDKProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/interceptor/InterceptorJDKProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/MyInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/interceptor/MyInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/multiInterceptor/Interceptor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/interceptor/multiInterceptor/Interceptor1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/multiInterceptor/Interceptor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/interceptor/multiInterceptor/Interceptor2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designModel/reflect/interceptor/multiInterceptor/Interceptor3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designModel/interceptor/multiInterceptor/Interceptor3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mail/MailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mail/MailUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mail/MailUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mail/MailUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kaka/dao/UserMapperTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,47 +26,46 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1940507885">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
-          <entry key="project.open.time.1" value="8" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.12" value="4" />
+          <entry key="project.closed" value="34" />
+          <entry key="project.open.time.1" value="11" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="4" />
+          <entry key="project.open.time.12" value="7" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="aj" value="411" />
-          <entry key="dummy" value="23" />
-          <entry key="java" value="7163" />
-          <entry key="jsp" value="54" />
-          <entry key="properties" value="39" />
-          <entry key="txt" value="167" />
-          <entry key="xml" value="909" />
+          <entry key="dummy" value="28" />
+          <entry key="java" value="9503" />
+          <entry key="jsp" value="85" />
+          <entry key="properties" value="47" />
+          <entry key="txt" value="230" />
+          <entry key="xml" value="1186" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="AspectJ" value="411" />
-          <entry key="JAVA" value="7163" />
-          <entry key="JSP" value="54" />
-          <entry key="PLAIN_TEXT" value="190" />
-          <entry key="Properties" value="39" />
-          <entry key="SQL" value="5" />
-          <entry key="XML" value="904" />
+          <entry key="JAVA" value="9503" />
+          <entry key="JSP" value="85" />
+          <entry key="PLAIN_TEXT" value="258" />
+          <entry key="Properties" value="47" />
+          <entry key="SQL" value="13" />
+          <entry key="XML" value="1173" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -78,26 +74,26 @@
           <entry key="CDPlayer" value="1" />
           <entry key="CDplayerTest" value="1" />
           <entry key="aj" value="2" />
-          <entry key="class" value="13" />
+          <entry key="class" value="15" />
           <entry key="fxml" value="1" />
-          <entry key="java" value="231" />
-          <entry key="jsp" value="8" />
+          <entry key="java" value="257" />
+          <entry key="jsp" value="16" />
           <entry key="md" value="1" />
-          <entry key="properties" value="13" />
-          <entry key="xml" value="108" />
+          <entry key="properties" value="14" />
+          <entry key="xml" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="AspectJ" value="2" />
-          <entry key="CLASS" value="13" />
-          <entry key="JAVA" value="231" />
-          <entry key="JSP" value="8" />
+          <entry key="CLASS" value="15" />
+          <entry key="JAVA" value="257" />
+          <entry key="JSP" value="16" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="13" />
+          <entry key="Properties" value="14" />
           <entry key="UML" value="2" />
-          <entry key="XML" value="109" />
+          <entry key="XML" value="119" />
         </counts>
       </usages-collector>
     </session>
@@ -107,118 +103,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectService.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mail/MailUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-959">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectConifg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/JdkProxy/JdkProxyExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/Interceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/MyInterceptor.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/easyexcel/TestExcel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/dao/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/dao/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="677">
+              <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
               <folding>
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#1445#1446#0" expanded="true" />
+                <element signature="e#1511#1512#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/InterceptorJDKProxy.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/dao/BeanutilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="55" column="88" lean-forward="true" selection-start-line="55" selection-start-column="88" selection-end-line="55" selection-end-column="88" />
+            <state relative-caret-position="-12">
+              <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/cglibProxy/CglibProxyExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/reflect/ReflectServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/multiInterceptor/Interceptor1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -253,6 +194,12 @@
       <find>spring-context-support</find>
       <find>jdbc.driverLocation</find>
       <find>com.kaka.cache.RedisCache</find>
+      <find>maven-compiler-plugin</find>
+      <find>${mybatis.version}</find>
+      <find>mybatis.version</find>
+      <find>JAVA_HOME</find>
+      <find>jun</find>
+      <find>log4j.appender.</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;1337860995@qq.com&quot;</replace>
@@ -267,32 +214,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/spittr/config/RootConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spittr/web/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/spittr/web/HomeControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/mail/JavaMailSenderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AssemblyBean/CDplayerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaka/cache/RedisCache.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaka/cache/RedisCacheTransfer.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kaka/cache/RedisCacheTransferTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaka/service/cache/RedisTestServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kaka/cache/RedisTestServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kaka/cache/SpringTestCase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kaka/cache/MybatisCacheTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaka/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaka/service/cache/RedisTestService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis-bak.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaka/dao/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/redis.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaka/cache/MethodCacheInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/reflect/ReflectServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/reflect/JavaConifg.java" />
         <option value="$PROJECT_DIR$/src/main/java/reflect/ReflectService.java" />
@@ -318,6 +241,30 @@
         <option value="$PROJECT_DIR$/src/main/java/designModel/interceptor/InterceptorJDKProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectConifg.java" />
         <option value="$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaka/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaka/service/cache/RedisTestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaka/service/cache/RedisTestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaka/cache/MethodCacheInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaka/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaka/dao/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaka/cache/RedisTestServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaka/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/session/set.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaka/controller/SessionController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/session/get.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaka/controller/SessionAnnotation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mail/MailUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/easyexcel/TestExcel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/easyexcel/TestExcel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaka/dao/DestinationObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaka/dao/OriginObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BeanUtilsTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaka/dao/BeanutilsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java" />
       </list>
     </option>
   </component>
@@ -373,11 +320,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="23" />
-    <option name="width" value="1600" />
-    <option name="height" value="825" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1439" />
+    <option name="y" value="29" />
+    <option name="width" value="1897" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -416,16 +363,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
               <item name="kaka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="reflect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
@@ -445,6 +383,43 @@
               <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
               <item name="kaka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kaka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kaka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kaka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kaka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -460,20 +435,29 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+              <item name="kaka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kaka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kaka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kaka" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543372900391" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546845940642" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -481,7 +465,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -494,18 +478,20 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.kaka" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/session" />
+      <recent name="$PROJECT_DIR$/src/main/java/aopAspectJ" />
+      <recent name="$PROJECT_DIR$/src/main/java/aopXML" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="reflect.interceptor.multiInterceptor" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/aopAspectJ" />
-      <recent name="$PROJECT_DIR$/src/main/java/aopXML" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -520,13 +506,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReflectServiceTest.reflect">
-    <configuration name="CglibProxyExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designModel.cglibProxy.CglibProxyExample" />
+  <component name="RunManager" selected="JUnit.UserMapperTest.test">
+    <configuration name="BeanutilsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kaka.dao.BeanutilsTest" />
       <module name="kaka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designModel.cglibProxy.*" />
+          <option name="PATTERN" value="com.kaka.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -534,41 +520,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterceptorJDKProxy (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designModel.interceptor.InterceptorJDKProxy" />
+    <configuration name="RedisTestServiceTest.getTimestampTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kaka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designModel.interceptor.*" />
+          <option name="PATTERN" value="com.kaka.cache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterceptorJDKProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflect.interceptor.InterceptorJDKProxy" />
-      <module name="kaka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reflect.interceptor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JdkProxyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designModel.JdkProxy.JdkProxyExample" />
-      <module name="kaka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designModel.JdkProxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="com.kaka.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.kaka.cache.RedisTestServiceTest" />
+      <option name="METHOD_NAME" value="getTimestampTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -584,6 +547,38 @@
       <option name="PACKAGE_NAME" value="reflect" />
       <option name="MAIN_CLASS_NAME" value="reflect.ReflectServiceTest" />
       <option name="METHOD_NAME" value="reflect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.selectBySex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kaka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaka.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaka.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.kaka.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="selectBySex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kaka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaka.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaka.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.kaka.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -693,18 +688,18 @@
       <item itemvalue="Maven.kaka-generator" />
       <item itemvalue="Tomcat Server.kaka" />
       <item itemvalue="JUnit.ReflectServiceTest.reflect" />
-      <item itemvalue="Application.InterceptorJDKProxy" />
-      <item itemvalue="Application.InterceptorJDKProxy (1)" />
-      <item itemvalue="Application.CglibProxyExample (1)" />
-      <item itemvalue="Application.JdkProxyExample" />
+      <item itemvalue="JUnit.RedisTestServiceTest.getTimestampTest" />
+      <item itemvalue="JUnit.UserMapperTest.test" />
+      <item itemvalue="JUnit.UserMapperTest.selectBySex" />
+      <item itemvalue="Application.BeanutilsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserMapperTest.test" />
+        <item itemvalue="Application.BeanutilsTest" />
+        <item itemvalue="JUnit.UserMapperTest.selectBySex" />
+        <item itemvalue="JUnit.RedisTestServiceTest.getTimestampTest" />
         <item itemvalue="JUnit.ReflectServiceTest.reflect" />
-        <item itemvalue="Application.JdkProxyExample" />
-        <item itemvalue="Application.CglibProxyExample (1)" />
-        <item itemvalue="Application.InterceptorJDKProxy (1)" />
-        <item itemvalue="Application.InterceptorJDKProxy" />
       </list>
     </recent_temporary>
   </component>
@@ -743,7 +738,18 @@
       <workItem from="1543196903132" duration="3873000" />
       <workItem from="1543214447400" duration="12598000" />
       <workItem from="1543371588406" duration="188000" />
-      <workItem from="1543372146088" duration="738000" />
+      <workItem from="1543372146088" duration="2589000" />
+      <workItem from="1543807895571" duration="1327000" />
+      <workItem from="1543894896247" duration="8244000" />
+      <workItem from="1544406657465" duration="7549000" />
+      <workItem from="1544531693698" duration="4739000" />
+      <workItem from="1544753079737" duration="1745000" />
+      <workItem from="1545133672117" duration="974000" />
+      <workItem from="1545206682115" duration="7092000" />
+      <workItem from="1545217128515" duration="6598000" />
+      <workItem from="1545897816524" duration="7968000" />
+      <workItem from="1546050610987" duration="648000" />
+      <workItem from="1546392275648" duration="13267000" />
     </task>
     <task id="LOCAL-00001" summary="mysql-connector-java.jar位置修改">
       <created>1542699924990</created>
@@ -836,43 +842,64 @@
       <option name="project" value="LOCAL" />
       <updated>1543372204420</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="整理包结构">
+      <created>1543372933090</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1543372933090</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Session">
+      <created>1545271689551</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1545271689552</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add eg about @SessionAttributes">
+      <created>1545274770023</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1545274770023</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReflectServiceTest_reflect - 2018.11.26 at 11h 50m 15s.xml">
-      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_test - 2019.01.03 at 15h 55m 05s.xml">
+      <configuration name="UserMapperTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectServiceTest_reflect - 2018.11.26 at 11h 52m 04s.xml">
-      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_test - 2019.01.03 at 16h 14m 14s.xml">
+      <configuration name="UserMapperTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectServiceTest_reflect - 2018.11.26 at 12h 00m 40s.xml">
-      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_test - 2019.01.03 at 16h 20m 02s.xml">
+      <configuration name="UserMapperTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectServiceTest_reflect - 2018.11.26 at 12h 02m 58s.xml">
-      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_test - 2019.01.03 at 16h 20m 32s.xml">
+      <configuration name="UserMapperTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectServiceTest_reflect - 2018.11.26 at 14h 06m 08s.xml">
-      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_test - 2019.01.03 at 16h 20m 43s.xml">
+      <configuration name="UserMapperTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectServiceTest_reflect - 2018.11.26 at 14h 06m 53s.xml">
-      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_test - 2019.01.04 at 11h 51m 32s.xml">
+      <configuration name="UserMapperTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectServiceTest_reflect - 2018.11.28 at 10h 30m 45s.xml">
-      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_test - 2019.01.07 at 10h 50m 15s.xml">
+      <configuration name="UserMapperTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectServiceTest_reflect - 2018.11.28 at 10h 32m 13s.xml">
-      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_test - 2019.01.07 at 10h 53m 33s.xml">
+      <configuration name="UserMapperTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectServiceTest_reflect - 2018.11.28 at 10h 40m 12s.xml">
-      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_test - 2019.01.07 at 10h 54m 04s.xml">
+      <configuration name="UserMapperTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReflectServiceTest_reflect - 2018.11.28 at 10h 41m 11s.xml">
-      <configuration name="ReflectServiceTest.reflect" configurationId="JUnit" />
+    <history-entry file="UserMapperTest_test - 2019.01.07 at 10h 59m 02s.xml">
+      <configuration name="UserMapperTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187315000" />
+    <option name="totallyTimeSpent" value="249317000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -884,10 +911,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1600" height="825" extended-state="0" />
+    <frame x="1440" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931788" visible="true" weight="0.22207959" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931788" visible="true" weight="0.20181043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -898,19 +925,19 @@
       <window_info anchor="bottom" id="Problems" order="0" weight="0.3287858" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3287858" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3819918" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.35607094" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.29058662" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.35470667" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3287858" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3287858" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3287858" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3285151" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.3287858" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32742155" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.325887" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3287858" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3287858" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3285151" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -967,200 +994,12 @@
     <MESSAGE value="CGLIB动态代理case" />
     <MESSAGE value="拦截器和责任链case" />
     <MESSAGE value="多层拦截器" />
-    <option name="LAST_COMMIT_MESSAGE" value="多层拦截器" />
+    <MESSAGE value="整理包结构" />
+    <MESSAGE value="Session" />
+    <MESSAGE value="add eg about @SessionAttributes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add eg about @SessionAttributes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/spittr/web/HomeControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mail/JavaMailSenderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/cache/RedisCache.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/cache/RedisCacheTransfer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/cache/MybatisCacheTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-766">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis-bak.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/dao/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spittr/web/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="48" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.1.RELEASE/spring-aop-5.1.1.RELEASE.jar!/org/aopalliance/intercept/Interceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.1.RELEASE/spring-aop-5.1.1.RELEASE.jar!/org/aopalliance/intercept/MethodInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/cache/RedisTestServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="67" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="30" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/cache/SpringTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="68" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/service/cache/RedisTestServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/cache/MethodCacheInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AssemblyBean/CDplayerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/aopXML/PerformanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1172,13 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/service/cache/RedisTestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1211,17 +1043,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/Interceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/multiInterceptor/Interceptor1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectConifg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="48" />
+        <state relative-caret-position="170">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/JdkProxy/JdkProxyExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/Interceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1229,52 +1075,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/InterceptorJDKProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="55" column="88" lean-forward="true" selection-start-line="55" selection-start-column="88" selection-end-line="55" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="850">
+          <caret line="55" column="88" selection-start-line="55" selection-start-column="88" selection-end-line="55" selection-end-column="88" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designModel/cglibProxy/CglibProxyExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/JdkProxy/JdkProxyExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectConifg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="595">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1285,24 +1099,242 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/interceptor/multiInterceptor/Interceptor1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/reflect/ReflectServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="357">
           <caret line="21" column="19" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/service/cache/RedisTestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/service/cache/RedisTestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/cache/RedisTestServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/cache/SpringTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/cache/MethodCacheInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-591">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/controller/SessionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/getUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/session/get.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/session/set.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/controller/SessionAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/rules/Stopwatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BeanUtilsTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2482">
+          <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/dao/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mail/MailUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-959">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/easyexcel/TestExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaka/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/dao/DestinationObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/dao/OriginObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar!/org/springframework/util/StopWatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/dao/BeanutilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designModel/reflect/ReflectService.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="152">
+          <caret line="1924" column="18" selection-start-line="1924" selection-start-column="18" selection-end-line="1924" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaka/dao/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
           </folding>
         </state>
       </provider>

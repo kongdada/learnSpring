@@ -7,4 +7,5 @@ package com.kaka.service.cache;
 
 public interface RedisTestService {
     public String getTimestamp(String param);
+    public String getUserById(String id);
 }

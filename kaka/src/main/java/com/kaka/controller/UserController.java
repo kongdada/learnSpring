@@ -22,4 +22,5 @@ public class UserController {
         modelAndView.setViewName("user/getUser");
         return modelAndView;
     }
+    // http://localhost:8080/kaka/user/getUser.do?id=3
 }

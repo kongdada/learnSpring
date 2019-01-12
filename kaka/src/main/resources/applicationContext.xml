@@ -65,7 +65,7 @@
     <!-- aop配置切点跟通知 -->
     <bean id="methodCachePointCut" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
         <property name="advice" ref="methodCacheInterceptor" />
-        <property name="pattern" value=".*ServiceImpl.*getTimestamp" />
+        <property name="pattern" value=".*ServiceImpl.*" />
     </bean>
     <bean id="redisTestService" class="com.kaka.service.cache.RedisTestServiceImpl"></bean>
     <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator" />

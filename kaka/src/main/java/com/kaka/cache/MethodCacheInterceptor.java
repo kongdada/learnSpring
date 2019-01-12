@@ -17,7 +17,7 @@ public class MethodCacheInterceptor implements MethodInterceptor {
 
     private RedisTemplate<Serializable, Object> redisTemplate;
     // 缓存默认的过期时间,这里设置了10秒
-    private Long defaultCacheExpireTime = 10L;
+    private Long defaultCacheExpireTime = 30L;
     @Override
     public Object invoke(MethodInvocation invocation) throws Throwable {
         Object value = null;

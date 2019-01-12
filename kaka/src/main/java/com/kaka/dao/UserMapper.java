@@ -1,6 +1,7 @@
 package com.kaka.dao;
 
 import com.kaka.model.User;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -14,7 +15,7 @@ public interface UserMapper {
 
     User selectByPrimaryKey(String id);
 
-    List<User> selectBySex(String sex);
+    List<User> selectBySex(@Param("name")String name, @Param("sex")String sex);
 
     int updateByPrimaryKeySelective(User record);
 

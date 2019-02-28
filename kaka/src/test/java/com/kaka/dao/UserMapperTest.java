@@ -39,17 +39,14 @@ public class UserMapperTest {
 
     @Test
     public void test() {
+//        System.out.println(DateTool.getTime());
+//        System.out.println(DateTool.getDayOfWeek("2019-02-28"));
+//        System.out.println(StringTool.getMonthDay("2019-02-28",""));
+//        StringTool.testStringFormat();
+//        StringTool.stringConcatByAnyting();
 
-
-        String str3 = "2015.0";
-//        String[] s= str.split("/.");
-//        System.out.println(str.substring(0, str.length()-1));
-
-        System.out.println(DateTool.getTime());
-        System.out.println(DateTool.getDayOfWeek("2019-02-28"));
-        System.out.println(StringTool.getMonthDay("2019-02-28",""));
-        StringTool.testStringFormat();
-        StringTool.stringConcatByAnyting();
+        StringTool.spiltStringByBank();
+        StringTool.spiltStringByPoint();
 
 
     }

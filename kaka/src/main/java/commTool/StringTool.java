@@ -40,4 +40,20 @@ public class StringTool {
         System.out.println("字符串用特定符号连接："+str);
         System.out.println("字符串用特定符号连接："+str2);
     }
+
+    public static void spiltStringByBank(){
+        String str = "2019 05 02";
+        String[] strArr = str.split(" +");
+        for (String temp: strArr) {
+            System.out.println(temp);
+        }
+    }
+
+    public static void spiltStringByPoint(){
+        String str = "2019.05.02";
+        String[] strArr = str.split("\\.");
+        for (String temp: strArr) {
+            System.out.println(temp);
+        }
+    }
 }

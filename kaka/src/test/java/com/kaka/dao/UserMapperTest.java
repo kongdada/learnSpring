@@ -1,7 +1,11 @@
 package com.kaka.dao;
 
 import com.alibaba.fastjson.JSON;
+import com.google.common.base.Joiner;
 import com.kaka.model.User;
+import com.sun.deploy.util.StringUtils;
+import commTool.DateTool;
+import commTool.StringTool;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,9 +14,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"classpath:applicationContext.xml"})
@@ -37,61 +39,31 @@ public class UserMapperTest {
 
     @Test
     public void test() {
-//        System.out.println(getDayOfWeek("2019-1-3"));
-//        testStringFormat();
-        String str = getMonthDay("2019-01-07", ".");
-        System.out.println(str);
-    }
+//        System.out.println(DateTool.getTime());
+//        System.out.println(DateTool.getDayOfWeek("2019-02-28"));
+//        System.out.println(StringTool.getMonthDay("2019-02-28",""));
+//        StringTool.testStringFormat();
+//        StringTool.stringConcatByAnyting();
 
-    /**
-     * @param date
-     * @param separator
-     * @return
-     */
-    private String getMonthDay(String date, String separator) {
-        return date.replaceAll("-", separator).substring(5);
-    }
+        StringTool.spiltStringByBank();
+        StringTool.spiltStringByPoint();
 
-    /**
-     * test StringFormat
-     */
-    public void testStringFormat() {
-        String bussineTitle = "业务范围, 环比%1$svs%2$s差值, 环比%1$svs%2$s环比, 同比%1$svs%3$s差值, 同比%1$svs%2$s同比, %1$s大竞价消耗, %2$s大竞价消耗, %3$s大竞价消耗";
-        System.out.println(String.format(bussineTitle, "2018-12-12", "2018-12-11", "2018-12-05"));
 
     }
 
-    /**
-     * @param dateStr
-     * @return 获取输入日期是周几
-     */
-    private String getDayOfWeek(String dateStr) {
-        Calendar cal = Calendar.getInstance();
-        SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd");
-        Date date = null;
-        try {
-            date = f.parse(dateStr);
-        } catch (ParseException e) {
-            e.printStackTrace();
+    public void TestLongSubInteger() {
+        Long CurrentBigCpcCost = 74925604L;
+        Long YestBigCpcCost = 80014531L;
+        Integer waveThresholdValue = 121832700;
+        long temp = Math.abs(CurrentBigCpcCost - YestBigCpcCost);
+        Integer tempb = waveThresholdValue * 100;
+        if (temp < tempb) {
+            System.out.println("################ GOOD JOB ###########");
+        } else {
+            System.out.println("################ FUCK JOB ###########");
         }
-        cal.setTime(date);
-        int week = cal.get(Calendar.DAY_OF_WEEK);
-        switch (week) {
-            case 1:
-                return "周日";
-            case 2:
-                return "周一";
-            case 3:
-                return "周二";
-            case 4:
-                return "周三";
-            case 5:
-                return "周四";
-            case 6:
-                return "周五";
-            case 7:
-                return "周六";
-        }
-        return "获取DAY_OF_WEEK失败";
     }
+
+
+
 }

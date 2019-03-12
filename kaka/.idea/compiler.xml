@@ -15,4 +15,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kaka" options="-bootclasspath /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/rt.jar" />
+    </option>
+  </component>
 </project>

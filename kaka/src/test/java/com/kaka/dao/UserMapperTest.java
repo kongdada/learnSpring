@@ -1,29 +1,30 @@
 package com.kaka.dao;
 
 import com.alibaba.fastjson.JSON;
-import com.google.common.base.Joiner;
 import com.kaka.model.User;
-import com.sun.deploy.util.StringUtils;
 import commTool.DateTool;
-import commTool.StringTool;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.Date;
+import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"classpath:applicationContext.xml"})
 public class UserMapperTest {
+    private final static Logger logger = LoggerFactory.getLogger(UserMapperTest.class);
     @Autowired
     private UserMapper userMapper;
 
     @Test
     public void selectByPrimaryKey() {
+        logger.debug("logback 成功了");
         int id = 1;
         User user = userMapper.selectByPrimaryKey(String.valueOf(id));
         System.out.println(JSON.toJSONString(user));
@@ -44,10 +45,9 @@ public class UserMapperTest {
 //        System.out.println(StringTool.getMonthDay("2019-02-28",""));
 //        StringTool.testStringFormat();
 //        StringTool.stringConcatByAnyting();
-
-        StringTool.spiltStringByBank();
-        StringTool.spiltStringByPoint();
-
+//        StringTool.spiltStringByBank();
+//        StringTool.spiltStringByPoint();
+        DateTool.getTimeRange();
 
     }
 
@@ -63,7 +63,6 @@ public class UserMapperTest {
             System.out.println("################ FUCK JOB ###########");
         }
     }
-
 
 
 }

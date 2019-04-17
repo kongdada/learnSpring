@@ -1,3 +1,4 @@
+/*
 package mail;
 
 import com.sun.xml.internal.messaging.saaj.packaging.mime.internet.MimeUtility;
@@ -16,10 +17,12 @@ import org.springframework.mail.javamail.MimeMessageHelper;
 import javax.mail.internet.MimeMessage;
 import java.io.File;
 
+*/
 /**
  * @author konglinghui
  * @date 2018/10/31
- */
+ *//*
+
 
 public class MailUtils {
     @Autowired
@@ -83,3 +86,4 @@ public class MailUtils {
 
 
 }
+*/

@@ -2,7 +2,7 @@ package com.kaka.dao;
 
 import com.alibaba.fastjson.JSON;
 import com.kaka.model.User;
-import commTool.DateTool;
+import commTool.NumTool;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -11,8 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -47,8 +45,8 @@ public class UserMapperTest {
 //        StringTool.stringConcatByAnyting();
 //        StringTool.spiltStringByBank();
 //        StringTool.spiltStringByPoint();
-        DateTool.getTimeRange();
-
+//        DateTool.getTimeRange();
+       NumTool.autoAdd();
     }
 
     public void TestLongSubInteger() {

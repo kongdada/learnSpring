@@ -33,7 +33,7 @@ public class CglibProxyExample implements MethodInterceptor {
         System.out.println("CGLIB进入代理逻辑");
         System.out.println("CGLIB调度真实对象之前的操作");
         Object result = methodProxy.invokeSuper(proxy, args);
-        System.out.println("CGLIB调度真是对象之后的操作");
+        System.out.println("CGLIB调度真实对象之后的操作");
         return result;
 
     }

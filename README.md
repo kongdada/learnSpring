@@ -13,3 +13,15 @@
 - aopXML，配置XML方式开发SpringAOP;
 - mail，发送邮件;
 - reflect java反射
+
+##### SpringBoot
+- HelloWord
+- 整合SpringMVC
+- 整合FreeMarker
+- 整合JSP
+- 全局捕获异常
+- JdbcTemplate
+- MyBatis
+- 多数据源
+- 整合事务
+

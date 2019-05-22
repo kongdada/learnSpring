@@ -24,7 +24,7 @@ public class DataSourceTestConfig {
      */
     @Bean(name = "testDataSource")
     @ConfigurationProperties(prefix = "spring.datasource.test")
-    public DataSource testDataSource() {
+    public DataSource DataSource() {
         return DataSourceBuilder.create().build();
     }
 
@@ -32,7 +32,7 @@ public class DataSourceTestConfig {
      * @methodDesc: 功能描述:(test1 sql会话工厂)
      */
     @Bean(name = "testSqlSessionFactory")
-    public SqlSessionFactory testSqlSessionFactory(@Qualifier("testDataSource") DataSource dataSource)
+    public SqlSessionFactory SqlSessionFactory(@Qualifier("testDataSource") DataSource dataSource)
             throws Exception {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
         bean.setDataSource(dataSource);
@@ -43,21 +43,20 @@ public class DataSourceTestConfig {
      * @methodDesc: 功能描述:(test1 事物管理)
      */
     @Bean(name = "testTransactionManager")
-    public DataSourceTransactionManager testTransactionManager(@Qualifier("testDataSource") DataSource dataSource) {
+    public DataSourceTransactionManager TransactionManager(@Qualifier("testDataSource") DataSource dataSource) {
         return new DataSourceTransactionManager(dataSource);
     }
 
     @Bean(name = "testSqlSessionTemplate")
-    public SqlSessionTemplate testSqlSessionTemplate(
+    public SqlSessionTemplate SqlSessionTemplate(
             @Qualifier("testSqlSessionFactory") SqlSessionFactory sqlSessionFactory) throws Exception {
         return new SqlSessionTemplate(sqlSessionFactory);
     }
 
-//    @Bean(name = "testjdbcTemplate")
-//    @Primary
-//    public JdbcTemplate testjdbcTemplate(@Qualifier("testDataSource") DataSource dataSource) {
-//        return new JdbcTemplate(dataSource);
-//    }
+    @Bean(name = "testJdbcTemplate")
+    public JdbcTemplate jdbcTemplate(@Qualifier("testDataSource") DataSource dataSource) {
+        return new JdbcTemplate(dataSource);
+    }
 
 }
 

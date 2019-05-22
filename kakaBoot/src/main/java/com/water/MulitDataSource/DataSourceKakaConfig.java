@@ -25,7 +25,7 @@ public class DataSourceKakaConfig {
     @Bean(name = "kakaDataSource")
     @ConfigurationProperties(prefix = "spring.datasource.kaka")
     @Primary
-    public DataSource testDataSource() {
+    public DataSource DataSource() {
         return DataSourceBuilder.create().build();
     }
 
@@ -34,7 +34,7 @@ public class DataSourceKakaConfig {
      */
     @Bean(name = "kakaSqlSessionFactory")
     @Primary
-    public SqlSessionFactory testSqlSessionFactory(@Qualifier("kakaDataSource") DataSource dataSource)
+    public SqlSessionFactory SqlSessionFactory(@Qualifier("kakaDataSource") DataSource dataSource)
             throws Exception {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
         bean.setDataSource(dataSource);
@@ -49,21 +49,21 @@ public class DataSourceKakaConfig {
      */
     @Bean(name = "kakaTransactionManager")
     @Primary
-    public DataSourceTransactionManager testTransactionManager(@Qualifier("kakaDataSource") DataSource dataSource) {
+    public DataSourceTransactionManager TransactionManager(@Qualifier("kakaDataSource") DataSource dataSource) {
         return new DataSourceTransactionManager(dataSource);
     }
 
     @Bean(name = "kakaSqlSessionTemplate")
     @Primary
-    public SqlSessionTemplate testSqlSessionTemplate(
+    public SqlSessionTemplate SqlSessionTemplate(
             @Qualifier("kakaSqlSessionFactory") SqlSessionFactory sqlSessionFactory) throws Exception {
         return new SqlSessionTemplate(sqlSessionFactory);
     }
 
-//    @Bean(name = "kakajdbcTemplate")
-//    @Primary
-//    public JdbcTemplate kakajdbcTemplate(@Qualifier("kakaDataSource") DataSource dataSource) {
-//        return new JdbcTemplate(dataSource);
-//    }
+    @Bean(name = "kakaJdbcTemplate")
+    @Primary
+    public JdbcTemplate jdbcTemplate(@Qualifier("kakaDataSource") DataSource dataSource) {
+        return new JdbcTemplate(dataSource);
+    }
 }
 

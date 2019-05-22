@@ -5,6 +5,7 @@ import com.github.pagehelper.PageInfo;
 import com.water.entity.User;
 import com.water.test.mapper.MemberMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
@@ -25,6 +26,7 @@ public class MemberServiceImpl implements MemberService {
     }
 
     @Autowired
+    @Qualifier("testJdbcTemplate")
     private JdbcTemplate jdbcTemplate;
 
     public void insertMember(Integer id, String name, Integer age) {

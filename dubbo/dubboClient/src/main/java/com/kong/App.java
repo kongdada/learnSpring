@@ -13,7 +13,6 @@ public class App {
         DemoApiService demoApiService = context.getBean(DemoApiService.class);
         String result = demoApiService.getUser(1l);
         System.out.println("result:" + result);
-
         System.out.println(demoApiService.getUser(2l));
         System.out.println(demoApiService.getUser(3l));
     }

@@ -1,7 +1,6 @@
 package commTool;
 
 import com.google.common.base.Joiner;
-import com.sun.deploy.util.StringUtils;
 
 import java.util.Arrays;
 import java.util.List;
@@ -33,26 +32,26 @@ public class StringTool {
     /**
      * 字符串用特定符号连接
      */
-    public static void stringConcatByAnyting(){
-        List<String> kaCser = Arrays.asList("a","b","c");
+    public static void stringConcatByAnyting() {
+        List<String> kaCser = Arrays.asList("a", "b", "c");
         String str = Joiner.on(",").join(kaCser);
-        String str2 = StringUtils.join(kaCser, ",");
-        System.out.println("字符串用特定符号连接："+str);
-        System.out.println("字符串用特定符号连接："+str2);
+//        String str2 = StringUtils.join(kaCser, ",");
+        System.out.println("字符串用特定符号连接：" + str);
+//        System.out.println("字符串用特定符号连接："+str2);
     }
 
-    public static void spiltStringByBank(){
+    public static void spiltStringByBank() {
         String str = "2019 05 02";
         String[] strArr = str.split(" +");
-        for (String temp: strArr) {
+        for (String temp : strArr) {
             System.out.println(temp);
         }
     }
 
-    public static void spiltStringByPoint(){
+    public static void spiltStringByPoint() {
         String str = "2019.05.02";
         String[] strArr = str.split("\\.");
-        for (String temp: strArr) {
+        for (String temp : strArr) {
             System.out.println(temp);
         }
     }

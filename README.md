@@ -7,10 +7,10 @@
 - com.kaka，SpringMVC + mybatis一个Web项目
 
 ##### 在阅读《Spring实战》过程中：
-- AssemblyBean，bean测试;
-- aopAspectJ，通过AspectJ实现切面;
-- aopJavaConfig，注解方式开发SpringAOP;
-- aopXML，配置XML方式开发SpringAOP;
+- bean，bean测试;
+- aop.aopAspectJ，通过AspectJ实现切面;
+- aop.aopJavaConfig，注解方式开发SpringAOP;
+- aop.aopXML，配置XML方式开发SpringAOP;
 - mail，发送邮件;
 - reflect java反射
 

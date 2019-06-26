@@ -5,9 +5,9 @@
         http://www.springframework.org/schema/aop
         http://www.springframework.org/schema/aop/spring-aop-4.2.xsd">
 
-    <bean id="audience" class="aopXML.Audience" />
-    <bean id="Performance" class="aopXML.PerformanceImpl" />
-    <bean id="Encoreable" class="aopXML.EncoreableImpl" />
+    <bean id="audience" class="aop.aopXML.Audience" />
+    <bean id="Performance" class="aop.aopXML.PerformanceImpl" />
+    <bean id="Encoreable" class="aop.aopXML.EncoreableImpl" />
 
     <!--<aop:aspectj-autoproxy /> 这个是启用@AspectJ注解驱动的切面-->
 
@@ -15,14 +15,14 @@
         <!-- 这是定义一个切面，切面是切点和通知的集合-->
         <aop:aspect id="do" ref="audience">
             <!-- 定义切点 ，后面是expression语言，表示包括该接口中定义的所有方法都会被执行-->
-            <aop:pointcut id="point" expression="execution(* aopXML.Performance.perform(..)))" />
+            <aop:pointcut id="point" expression="execution(* aop.aopXML.Performance.perform(..)))" />
             <!-- 定义通知 -->
             <aop:before method="silencePhone" pointcut-ref="point" />
             <aop:before method="takeSeats" pointcut-ref="point" />
             <aop:after-returning method="applause" pointcut-ref="point" />
             <aop:after-throwing method="demanRefund" pointcut-ref="point" />
-            <aop:declare-parents types-matching="aopXML.Performance+" implement-interface="aopXML.Encoreable"
-                default-impl="aopXML.EncoreableImpl" />
+            <aop:declare-parents types-matching="aop.aopXML.Performance+" implement-interface="aop.aopXML.Encoreable"
+                                 default-impl="aop.aopXML.EncoreableImpl" />
         </aop:aspect>
     </aop:config>
 

@@ -16,7 +16,14 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="SpringAOP" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/SpringAOP.xml</file>
+        </fileset>
+        <fileset id="fileset2" name="SpringAopAspectJ" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/SpringAopAspectJ.xml</file>
+        </fileset>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">

@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.Map;
+
 @Controller
 @RequestMapping("user")
 @Slf4j
@@ -33,9 +35,9 @@ public class UserController {
     // http://localhost:8080/kaka/user/rest/user.do?id=3
     @RequestMapping("rest/user")
     @ResponseBody
-    public User getUserById(@RequestParam String id) {
-        User user = userService.getUserById(id);
-        return user;
+    public void getUserById(@RequestParam Map<String, Object> body) {
+        System.out.println("FUCK!!!");
+        System.out.println("body" + body);
     }
 
 }

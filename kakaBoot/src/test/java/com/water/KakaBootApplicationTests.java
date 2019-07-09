@@ -37,5 +37,11 @@ public class KakaBootApplicationTests {
     public void contextLoads() {
 
     }
+    @Test
+    public void test1() {
+        Integer a = new Integer(100);
+        a = a * 100;
+        System.out.println("Result;" + a);
+    }
 
 }

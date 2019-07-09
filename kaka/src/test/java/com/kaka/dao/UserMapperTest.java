@@ -46,9 +46,10 @@ public class UserMapperTest {
 //        StringTool.spiltStringByBank();
 //        StringTool.spiltStringByPoint();
 //        DateTool.getTimeRange();
-       NumTool.autoAdd();
+        NumTool.autoAdd();
     }
 
+    @Test
     public void TestLongSubInteger() {
         Long CurrentBigCpcCost = 74925604L;
         Long YestBigCpcCost = 80014531L;
@@ -60,6 +61,17 @@ public class UserMapperTest {
         } else {
             System.out.println("################ FUCK JOB ###########");
         }
+    }
+
+    @Test
+    public void test1() {
+        Integer a = new Integer(100);
+        a = a * 100;
+        System.out.println("Result: " + a);
+        Long b = 8_00L;
+        Integer c = 2_00;
+        System.out.println(b);
+        System.out.println(c);
     }
 
 

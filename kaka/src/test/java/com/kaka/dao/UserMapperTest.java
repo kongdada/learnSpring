@@ -65,13 +65,11 @@ public class UserMapperTest {
 
     @Test
     public void test1() {
-        Integer a = new Integer(100);
-        a = a * 100;
-        System.out.println("Result: " + a);
-        Long b = 8_00L;
-        Integer c = 2_00;
+        Long a = 967306074781305167L;
+        Integer b = a.intValue();
+
         System.out.println(b);
-        System.out.println(c);
+//        System.out.println(c);
     }
 
 

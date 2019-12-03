@@ -4,8 +4,12 @@ import com.github.pagehelper.PageInfo;
 import com.water.entity.User;
 import com.water.kaka.service.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.Map;
 
 @RestController
 public class HelloWorldController {
@@ -16,9 +20,10 @@ public class HelloWorldController {
     }
 
     @RequestMapping("/exception")
-    public String exceptionEg(int i) {
-        int j = 1 / i;
-        return "Hello World" + i;
+    public String exceptionEg(@RequestBody Map<String, Object> map) {
+//        int j = 1 / i;
+//        return "Hello World" + i;
+        return map.toString();
     }
 
     @Autowired

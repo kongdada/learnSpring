@@ -36,7 +36,7 @@ public class UserController {
     @RequestMapping("rest/user")
     @ResponseBody
     public void getUserById(@RequestParam Map<String, Object> body) {
-        System.out.println("FUCK!!!");
+        System.out.println("LUCK!!!");
         System.out.println("body" + body);
     }
 

@@ -55,4 +55,11 @@ public class StringTool {
             System.out.println(temp);
         }
     }
+
+    public static void main(String[] args) {
+        Long a = 910171671029387103L;
+        Integer b = a.intValue();
+
+        System.out.println(b);
+    }
 }

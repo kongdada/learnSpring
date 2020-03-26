@@ -1,6 +1,9 @@
 package com.kaka.dao;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.kaka.model.ComponentRecordEntity;
+import com.kaka.model.SuperUser;
 import com.kaka.model.User;
 import commTool.NumTool;
 import org.junit.Test;
@@ -11,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.util.Date;
 import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -65,11 +69,30 @@ public class UserMapperTest {
 
     @Test
     public void test1() {
-        Long a = 967306074781305167L;
-        Integer b = a.intValue();
+/*        SuperUser su = new SuperUser("aaa");
+        su.setIsVip(1L);
+        su.setName("kong");
+        System.out.println(JSON.toJSONString(su));
+        System.out.println(su.getId());
+        System.out.println(su.getName());
+        System.out.println(su.getIsVip());*/
 
-        System.out.println(b);
-//        System.out.println(c);
+        Long recordId = 2L;
+        ComponentRecordEntity componentRecord = new ComponentRecordEntity(recordId);
+        componentRecord.setType(1);
+        componentRecord.setWbId(223L);
+        JSONObject json = new JSONObject();
+        json.put("recordDataUrl", "recordDataUrl");
+        json.put("reportUrl", "reportUrl");
+        json.put("finishTime", new Date());
+        json.put("mobileDuration","mobileDuration");
+        componentRecord.setContent(json.toJSONString());
+        Date date = new Date();
+        componentRecord.setCreateTime(date);
+        componentRecord.setUpdateTime(date);
+        componentRecord.setFinishTime(date);
+
+        System.out.println(componentRecord.getId());
     }
 
 

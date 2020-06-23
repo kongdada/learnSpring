@@ -27,6 +27,8 @@
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <!-- 注入数据库连接池 -->
         <property name="dataSource" ref="dataSource" />
+        <!-- mybatis-config配置文件 -->
+        <property name="configLocation" value="classpath:mybatis.xml" />
         <!-- 扫描model包 使用别名 -->
         <property name="mapperLocations" value="classpath:com/kaka/dao/*.xml" />
     </bean>

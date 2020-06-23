@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration
-    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
-    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <!-- 配置mybatis的缓存，延迟加载等等一系列属性 -->
     <settings>
@@ -53,5 +53,10 @@
         <!--<setting name="logImpl" value="STDOUT_LOGGING" />-->
 
     </settings>
+    <plugins>
+        <plugin interceptor="com.kaka.service.shard.ShardPlugin">
+            <property name="shardingConfig" value="shard-config.xml"/>
+        </plugin>
+    </plugins>
 
 </configuration>
